@@ -1,0 +1,198 @@
+.animation {
+    z-index: -1;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/gifd.gif);
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+}
+div {
+  border-radius: 5px;
+}
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family: sans-serif;
+    color: indianred;
+}
+
+.head {
+  font-size: 20px;
+    text-align: center;
+}
+
+#name {
+  font-family: sans-serif;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+body {
+    background-color: darkgreen;
+    color: thistle;
+    font-family: sans-serif;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 1px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: mediumvioletred;
+    color: white;
+    padding: 45px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: indianred;
+}
+.container {
+    border-radius: 5px;
+    background-color: floralwhite;
+    padding: 20px;
+}
+.abtitle{
+    text-align: center;
+}
+.resume{
+    color: black;
+}
+.about{
+    color: black;
+}
+.contact{
+    color: black;
+}
+.contactme{
+    text-align: center;
+}
+
+.bio{
+    text-align: left;
+    height: 30px;
+    width: 50%;
+    color: lightgoldenrodyellow;
+    padding: 45px;
+}
+.name{
+    color: mediumvioletred;
+}
+.lastp{
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    z-index: 15;
+    padding: 45px;
+    color: lightgoldenrodyellow;
+}
+.boss{
+    text-align: right;
+    margin-left: auto;
+    width: 50%;
+    height: 30px;
+    color: lightpink;
+    padding: 45px;
+}
+.cdiv{
+    text-align: center;
+}
+
+.rh1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+header {
+    padding: 40px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+    h1 {
+        cursor: pointer;
+        float: left;
+        font-size: 24px;
+        margin: 0px;
+        transition: .3s all;
+    }
+    ul {
+        float: right;
+        font-size: 24px; 
+        list-style: none;
+        padding: 0;
+        margin: 0px;
+        li {
+            cursor: pointer;
+            display: inline-block;
+            margin-left: 20px;
+            transition: .3s all;
+        }
+    }
+    h1:hover,
+    li:hover {
+        transform: translateY(-5px);
+        transition: .3s all;
+        cursor: pointer;
+    }
+}

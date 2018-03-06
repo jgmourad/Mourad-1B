@@ -1,0 +1,32 @@
+body {
+  background-color: darkseagreen;
+  color: thistle; }
+
+header {
+  padding: 40px;
+  text-transform: uppercase;
+  font-family: sans-serif; }
+  header h1 {
+    cursor: pointer;
+    float: left;
+    font-size: 24px;
+    margin: 0px;
+    transition: .3s all; }
+  header ul {
+    float: right;
+    font-size: 24px;
+    list-style: none;
+    padding: 0;
+    margin: 0px; }
+    header ul li {
+      cursor: pointer;
+      display: inline-block;
+      margin-left: 20px;
+      transition: .3s all; }
+  header h1:hover,
+  header li:hover {
+    transform: translateY(-5px);
+    transition: .3s all;
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
